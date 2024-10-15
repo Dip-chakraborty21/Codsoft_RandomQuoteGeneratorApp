@@ -1,16 +1,35 @@
-# quote_app
+Random Quote Generator
+This is a simple Random Quote Generator app built using [your preferred framework/language]. The app fetches random quotes and allows users to share them on social media platforms.
 
-A new Flutter project.
+Features
+Generate random quotes.
+Quotes are displayed with author names (if available).
+Users can share quotes on social media.
+Simple and attractive user interface.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Technologies Used
+Programming Language: [Dart/Flutter/etc.]
+Framework: [Flutter/Api calling etc.]
 
-A few resources to get you started if this is your first Flutter project:
+Installation
+Clone the repository:
+git clone https://github.com/yourusername/random-quote-generator.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Navigate to the project directory:
+cd random-quote-generator
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install the dependencies:
+ share: ^2.0.4
+ fluttertoast: ^8.0.9
+ 
+How to Use
+Open the app.
+Tap the "Generate Quote" button to fetch a random quote.
+Share the quote by clicking the "Share" button.
+
+
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
