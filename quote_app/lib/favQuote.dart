@@ -1,7 +1,7 @@
-
 import 'package:flutter/material.dart';
 import 'quote.dart';
 import 'randomqoutes.dart';
+import 'package:share/share.dart';
 
 class FavoriteQuotesPage extends StatelessWidget {
   final RandomQuote randomQuotes;
@@ -77,6 +77,17 @@ class FavoriteQuotesPage extends StatelessWidget {
                               138,
                             ),
                           ),
+                        ),
+                        const SizedBox(height: 12),
+                        ElevatedButton(
+                          onPressed: () {
+                            Share.share('${quote.quote} - ${quote.author}');
+                          },
+                          style: ElevatedButton.styleFrom(
+                            foregroundColor: Colors.white,
+                            backgroundColor: Colors.pink.shade900,
+                          ),
+                          child: const Text("Share"),
                         ),
                       ],
                     ),
