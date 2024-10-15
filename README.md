@@ -16,9 +16,6 @@ The app randomly selects a quote from a predefined list of quotes.
 When the user taps the New Quote button, a new random quote is displayed.
 Users can click the Share button to share the current quote using their preferred app (e.g., social media, messaging apps).
 
-Clone this repository:
-git clone https://github.com/Dip-chakraborty21/CodeAlpha_FlashcardQuizApp.git
-
 Navigate to the project directory:
 cd random_quote_generator
 
